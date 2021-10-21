@@ -1,0 +1,11 @@
+[user]
+	email = ambyrelan@wayne.edu
+	name = Ambyr 
+[core]
+	editor = vim
+[alias]
+	up = pull --rebase --autostash
+[diff]
+    tool = vimdiff
+[merge]
+    tool = vimdif
