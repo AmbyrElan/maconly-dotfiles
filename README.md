@@ -12,10 +12,10 @@ git clone https://github.com/AmbyrElan/maconly-dotfiles.git
 Delete any existing files and create symlinks
 
 ```
-ln -s dotfiles/.bash_profile .
-ln -s dotfiles/.bashrc .
-ln -s dotfiles/.gitconfig .
-ln -s dotfiles/.vimrc .
+ln -s maconly-dotfiles/.bash_profile .
+ln -s maconly-dotfiles/.bashrc .
+ln -s maconly-dotfiles/.gitconfig .
+ln -s maconly-dotfiles/.vimrc .
 ```
 
 ## Install
