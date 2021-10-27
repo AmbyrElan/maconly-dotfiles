@@ -7,9 +7,23 @@ filetype indent on
 
 " Don't wrap
 set nowrap
-set tabstop=4
+set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
+set smartindent
+
+set noerrorbells
+
+" Awesome
+set omnifunc=syntaxcomplete#Complete
+set omnifunc=javascriptcomplete#CompleteJS
+set omnifunc=htmlcomplete#Completetags
+set omnifunc=phpcomplete#CompletePHP
+
+let php_sql_query = 1
+let php_htmlInStrings = 1
+
+set nocompatible
 
 " mapleader
 let mapleader = "\<Space>"
